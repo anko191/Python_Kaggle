@@ -1,11 +1,14 @@
 # Python_Kaggle
-Kaggle, Chainer, Udemy, データ分析等
+勉強したものや写経プラス用語説明を加えたもの
 
-*        高等学校情報科「情報Ⅱ」教員研修用教材(本編)で勉強
-*        titanic
-*        homepricePrediction
-*        iris
-*        Pytorch
+## 参考本等
+- DLFZ : DeepLearningFromZero(ゼロから始めるディープラーニング)
 
-titanic -|<br>
-　　　 |- make newfeature
+## サイトからの参考
+- モデル
+  - a
+- 可視化のすべて
+  - _Visualization_
+    - matplotlib
+    - altair
+  - plotly.express
