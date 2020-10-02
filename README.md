@@ -16,8 +16,16 @@
   - ニューラルネット
     - Pytorch
     - Tensorflow
+    - [Multi-Label]NN
 - 可視化のすべて
   - _Visualization_
     - matplotlib
-    - altair
+    - altair(動かせる)
   - plotly.express
+    - 動かせる
+- 特徴量色々
+  - Feature_Engineering
+- ハイパーパラメータの調整
+  - Optuna
+- 便利化
+  - Pipeline
