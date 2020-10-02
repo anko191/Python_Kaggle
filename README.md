@@ -5,8 +5,17 @@
 - DLFZ : DeepLearningFromZero(ゼロから始めるディープラーニング)
 
 ## サイトからの参考
+- 基本的文法 (learn from nkmk さん)
+  - numpy
+  - pandas
+  - scikit
 - モデル
-  - a
+  - 決定木
+    - lightgbm,xgboost
+    - XGboost
+  - ニューラルネット
+    - Pytorch
+    - Tensorflow
 - 可視化のすべて
   - _Visualization_
     - matplotlib
