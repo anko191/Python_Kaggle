@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# Python_Kaggle
+勉強したものや写経プラス用語説明を加えたもの
 
-You can use the [editor on GitHub](https://github.com/anko191/Python_Kaggle/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 参考本等
+- DLFZ : DeepLearningFromZero(ゼロから始めるディープラーニング)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anko191/Python_Kaggle/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## サイトからの参考
+- 基本的文法 (learn from nkmk さん)
+  - numpy
+  - pandas
+  - scikit
+- モデル
+  - 決定木
+    - lightgbm,xgboost
+    - XGboost
+  - ニューラルネット
+    - Pytorch
+    - Tensorflow
+    - [Multi-Label]NN
+- 可視化のすべて
+  - _Visualization_
+    - matplotlib
+    - altair(動かせる)
+  - plotly.express
+    - 動かせる
+- 特徴量色々
+  - Feature_Engineering
+- ハイパーパラメータの調整
+  - Optuna
+- 便利化
+  - Pipeline
