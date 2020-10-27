@@ -1,3 +1,6 @@
+# ref : https://dev.classmethod.jp/articles/shuntaka9576-gh/
+
+
 git remote add PK https://github.com/anko191/Python_Kaggle
 
 git remote -v
