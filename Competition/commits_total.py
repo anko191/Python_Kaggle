@@ -17,3 +17,4 @@ commits_total.loc[n,'LB_score'] = 0.01
 commits_total.loc[n, 'comment'] = 'nyaaaa'
 
 print(commits_total)
+commits_total.sort_values(by = ['CV_score'], ascending = True)
