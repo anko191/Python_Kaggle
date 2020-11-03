@@ -24,4 +24,6 @@ def QTf(train, test, features, n_quantiles = 100, seed = 77, output_distribution
         train[col] = transformer.transform(reshaped_train).reshape(1, trainlen)[0]
         # なにこれ
         test[col] = transformer.transform(test[col].values.reshape(testlen, 1)).reshape(1,testlen)[0]
-        
+
+    return train, test
+    
