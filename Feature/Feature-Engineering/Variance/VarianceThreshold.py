@@ -17,10 +17,10 @@ def VT(train, test, THRESHOLD = 0.80):
     trf = data_transformed[:train.shape[0]]
     tef = data_transformed[-test.shape[0]:]
 
-    train = pd.DataFrame(train[['sig_id', 'cp_type', 'cp_time', 'cp_dose']].values.reshape(-1,4), columns = ['sig_id', 'cp_type', 'cp_time', 'cp_dose'])
+    train = pd.DataFrame(train[['nanka']].values.reshape(-1,len(nanka)), columns = ['nanka'])
     train = pd.concat([train, pd.DataFrame(trf)], axis = 1)
-
-    test = pd.DataFrame(test[['sig_id', 'cp_type', 'cp_time', 'cp_dose']].values.reshape(-1,4), columns = ['sig_id', 'cp_type', 'cp_time', 'cp_dose'])
+    # 番号に変化させ結合する
+    test = pd.DataFrame(test[['nanka']].values.reshape(-1,len(nanka)), columns = ['nanka'])
     test = pd.concat([test, pd.DataFrame(tef)], axis = 1)
 
     print(train.shape,test.shape)
