@@ -8,12 +8,14 @@
 # 対象となる変数の値を順位付けし、その順位を-1 ~ 1 の範囲にスケーリングする
 
 # QuantileTransformer が用意されている
+# 他の色々なもの
+# https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html
 
 from sklearn.preprocessing import QuantileTransformer
 
 # uniform 一様分布
 # normal 正規分布
-# に従うように変換思案す。
+# に従うように変換します。
 # transfroms the features to follow a uniform or a normal distribution
 #
 # normal だと 分布が ガウス分布
