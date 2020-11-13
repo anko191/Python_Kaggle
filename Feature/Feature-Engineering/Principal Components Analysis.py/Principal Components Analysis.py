@@ -13,6 +13,27 @@
 
 # 変換する前のもの
 
+#
+# https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
+# If n_components == 'mle' and svd_solver == 'full', Minka’s MLE is used to guess the dimension.
+# 最尤推定 Maximum Likelihood Estimation
+
+# - - - - -
+# Principal Component Analysis can set variable-rate in n_components
+
+# https://www.mikulskibartosz.name/pca-how-to-choose-the-number-of-components/
+# set variance rate in principal component analysis
+
+# //95% of variance
+# from sklearn.decomposition import PCA
+# pca = PCA(n_components = 0.95)
+# pca.fit(data_rescaled)
+# reduced = pca.transform(data_rescaled)
+
+# n_components = 0.95
+# 分散で決めてくれる
+
 
 from sklearn.decomposition import PCA
 
