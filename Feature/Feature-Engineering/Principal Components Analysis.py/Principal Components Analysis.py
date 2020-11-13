@@ -35,6 +35,14 @@
 # 分散で決めてくれる
 
 
+# - - - - -
+# アルゴリズムを使って次元数を決める方法もある
+# - - 
+# If n_components == 'mle' and svd_solver == 'full',
+#  Minka’s MLE is used to guess the dimension.
+# Use of n_components == 'mle' will interpret
+#  svd_solver == 'auto' as svd_solver == 'full'.
+
 from sklearn.decomposition import PCA
 
 def _PCA(train,test,kind = None, n_components = 50):
