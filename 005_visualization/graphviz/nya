@@ -1,0 +1,8 @@
+digraph {
+	node [shape=square style=filled]
+	yaba -> tuyo [label=" e?"]
+	tuyo -> yaba [label=" sugoi"]
+	yaba -> tuyo [label=" magatte~~"]
+	yaba [label="" fillcolor="#f4fff2" shape=circle]
+	tuyo [label=node_chan fontcolor=red]
+}

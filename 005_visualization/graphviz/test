@@ -1,0 +1,17 @@
+graph {
+	node [fixedsize=true width=1.5]
+	node [fillcolor="#ffffff" fontsize=16 shape=square style=filled]
+	features
+	categorical
+	numerical
+	"target-enc"
+	"count-enc"
+	VarianceThresh
+	nanka
+	features -- categorical
+	features -- numerical
+	categorical -- "target-enc"
+	categorical -- "count-enc"
+	numerical -- VarianceThresh
+	numerical -- nanka
+}
